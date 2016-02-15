@@ -8,10 +8,10 @@
 4. What does the HEAD^ argument mean?
   * It is the previous version of the branch
 5. What are the 3 stages of a git change and how do you move a file from one stage to the other?
-  * While working on a file it will be unstaged and listed under "Untracked files" in git status. To move the file to staged, you use the command "git add <file>" or "git add ." if you want to add all of the unstaged files at once. Now the file is staged to be committed. To commit the file use the command "git commit -m "add commit message"".
+  * While working on a file it will be unstaged and listed under "Untracked files" in git status. To move the file to staged, you use the command "git add [file]" or "git add ." if you want to add all of the unstaged files at once. Now the file is staged to be committed. To commit the file use the command "git commit -m "add commit message"".
 6. Write a handy cheatsheet of the commands you need to commit your changes.
   * git status
-  * git add <file>
+  * git add [file]
   * git commit -m "commit message"
   * git push origin branch_name
 7. What is a pull request and how do you create and merge one?
