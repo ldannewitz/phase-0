@@ -13,7 +13,7 @@
     will feature personal and contact information, my
     professional background, projects, technical blog, etc.
 
-![Sitemap](/imgs/sitemap.png "My Sitemap")
+![Sitemap](/week-2/imgs/sitemap.png "My Sitemap")
 
 3. What is your target audience's interests and
    how do you see your site addressing them?
