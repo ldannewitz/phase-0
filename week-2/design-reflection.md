@@ -31,4 +31,4 @@
   * User experience design incorporates findings on user experience into the web design. Where web design guesses what users want and what will work on a site, user experience looks at feedback and surveys from actual users. It's valuable because it essentially tests the hypotheses that went into the web design.
 
 7. Which parts of the challenge did you find tedious?
-  * After completing my Week 1 Peer Reviews, watching the four Week 2 videos, and reading the two required readings for this unit, I was pretty anxious to get back into the command line and sublime. I skipped the optional readings because I needed a break from the hands-off learning. I plan to circle back.
+  * Is there a way to test what this reflection will look like before it is pushed? I went through the whole process, made the mistake of deleting my local feature-branch, and then noticed my picture link wasn't working (I forgot /week-2). The fix was obvious and quick, but then in fixing the picture my numbering was off. It seemed tedious to keep pushing/pulling for each little format tweak.
