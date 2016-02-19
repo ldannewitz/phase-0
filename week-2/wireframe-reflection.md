@@ -1,4 +1,4 @@
-Wireframe Reflection
+**Wireframe Reflection**
 
 1. What is a wireframe?
   * A wireframe is a simple blueprint of a website. It's the first step in the design process and allows for experimenting and tweaking of a website idea. The elements are usually kept simple, just enough to give an idea of the layout of the site.
@@ -18,10 +18,10 @@ Wireframe Reflection
 1. Which parts of the challenge did you enjoy and which parts did you find tedious?
   * I originally drew my wireframe with paper and pencil, and I think I'll continue to do this with future projects. For an initial step it was more enjoyable for me than the digital wireframing, which was tedious at times. With the digital I kept accidentally moving components when I was simply trying to click on them. I also have OCD tendencies, so it was hard not to focus on everything being perfectly centered and spaced.
 
-Site Index Wireframe:
+**Site Index Wireframe:**
 
 ![Site Index](/week-2/imgs/wireframe-index.png "Wireframe for Site Index")
 
-Blog Index Wireframe:
+**Blog Index Wireframe:**
 
 ![Blog Index](/week-2/imgs/wireframe-blog-index.png "Wireframe for Blog Index")
