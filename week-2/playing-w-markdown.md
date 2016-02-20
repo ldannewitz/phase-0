@@ -29,7 +29,7 @@ Can quote code inline too, like `git status`
 
 Now I'm creating [links](https://www.google.com/search?q=links&oq=links&aqs=chrome..69i57j69i65l3j69i60l2.526j0j1&sourceid=chrome&es_sm=91&ie=UTF-8)!
 And [links with titles](https://www.google.com/search?q=links&oq=links&aqs=chrome..69i57j69i65l3j69i60l2.526j0j1&sourceid=chrome&es_sm=91&ie=UTF-8 "Google Search")!
-And [reference links] [1]!
+ And [reference links] [1]!
 
 [1]: www.google.com
 And now the [text itself will link]
