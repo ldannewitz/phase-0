@@ -14,7 +14,7 @@ _also italic_
 
 ~~STRIKE THROUGH~~
 
-**This test is __extremely__ important**
+*This test is __extremely__ important*
 
 This is a quote:
 > I'm quoted!
