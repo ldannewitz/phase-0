@@ -56,6 +56,7 @@ Onto lists:
   - and again!
 
 Here's a table:
+
 Lisa | Brian | Jeff
 --- | --- | ---
 Chicago | Nashville | Knoxville
