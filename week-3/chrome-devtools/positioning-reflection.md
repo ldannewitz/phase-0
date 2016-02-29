@@ -14,20 +14,19 @@ Challenge 9: ![Get Creative](/week-3/chrome-devtools/imgs/Exercise 9.png "Get Cr
   * When you click on an html element in Chrome's DevTools inspector, you can view the corresponding styling for that element in a separate window pane. You can play with the formating or positioning of elements by changing the styling code directly in the inspector.
 
 1. How can you resize elements on the DOM using CSS?
-  * There are several ways you can resize elements.
-  * Change height/width
+  * Change height/width (ex. 10px, 5em, 15%)
   * Change **padding** = between content and the border, changing the padding increases the overall content area
-  * Change **border** = edge around the content, its size affects to element size
+  * Change **border** = edge around the content, its size affects the element size
   * Change **margin** = area outside of the border, reserves space between elements
 
 1. What are the differences between absolute, fixed, static, and relative positioning? Which did you find easiest to use? Which was most difficult?
-  * Static is the default positioning
-  * Relative adjusts that positioned element relative to its static position, but the other elements around it retain their positions as if the positioned element had not been moved from its static position
-  * Fixed and absolute, on the other hand, both remove the element from the normal flow of elements and position it relative to another item.
+  * **Static** is the default positioning
+  * **Relative** adjusts that positioned element relative to its static position, but the other elements around it retain their positions as if the positioned element had not been moved from its static position
+  * **Fixed and absolute**, on the other hand, both remove the element from the normal flow of elements and position it relative to another item.
     * Absolute positions it relative to its first positioned ancestor, or if none, to the body
     * Fixed positions it relative to the screen
   * Easiest to use = fixed and static
-  * Most difficult = relative & static
+  * Most difficult = relative & static (bc it took me forever to figure out)
 
 1. What are the differences between margin, border, and padding?
   * They all make up part of the overall element size but in different ways. From the center of the element out: content, padding, border, margin. Padding is the space between the content and the border. Border is simply a divider between the padded content and the margin. The margin is space outside the border.
