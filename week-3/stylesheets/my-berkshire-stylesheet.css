@@ -61,3 +61,19 @@ li span {
 #small-text {
   font-size: .5em;
 }
+
+/*
+1. What is important to know when linking an external file (like a stylesheet) to an HTML file?
+--The most important part of the stylesheet link is the relative link. If you don't point to the right directory and file then none of your CSS will work.
+
+2. What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+--It was very difficult to get the site as we wanted it. One trick we used was border-bottom instead of <hr> to create divider lines between sections.
+
+3. What CSS did you use to modify the element style (like size, color, etc.)
+--color, background-color, list-style-position, font-size, font-weight, text-align
+
+4. Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+--We used both but had some confusion as to the difference
+
+5. When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+--The actual code base didn't use a CSS linked page (that we could see) so we thought that our code (or beginning of it anyway) was cleaner and followed best practices. Our html was only semantic elements compared to the actual code's inline CSS.
