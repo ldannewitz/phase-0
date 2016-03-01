@@ -1,8 +1,6 @@
-**Numbers and Letters Reflection**
-
+**Numbers and Letters Reflection**<br>
 1. What does puts do?
-  * Puts returns nil and prints the output to terminal with a new line
-
+  * Puts returns nil and prints the output to terminal with a new line<br>
 1. What is an integer? What is a float?
   * An integer is a number without a decimal (ex. 13), and a float is a number with a decimal (ex. 2.5).
 
