@@ -1,6 +1,8 @@
-**Numbers and Letters Reflection**<br>
+**Numbers and Letters Reflection:**
+
 1. What does puts do?
-  * Puts returns nil and prints the output to terminal with a new line<br>
+  * Puts returns nil and prints the output to terminal with a new line
+
 1. What is an integer? What is a float?
   * An integer is a number without a decimal (ex. 13), and a float is a number with a decimal (ex. 2.5).
 
@@ -9,7 +11,7 @@ division? How would you explain the difference to someone who doesn't know anyth
   * Float division will give you a more accurate mathematical answer if the division would result in a remainder because the answer will include a decimal and the following digits (ex. 5.0 / 2.0 ==> 2.5).
   * Integer division essentially rounds the answer down and only results in the integer part of the answer (ex. 5 / 2 ==> 2).
 
-**Mini-Challenges**
+**Mini-Challenges:**
 
 *Hours in a Year:*
 ```ruby
@@ -22,7 +24,7 @@ puts "Minutes in a Decade"
 puts 60*24*(365*10 + 2)
 ```
 
-**Reflection Continued (and some repetition)**
+**Reflection Continued (and some repetition):**
 
 1. How does Ruby handle addition, subtraction, multiplication, and division of numbers?
   * Addition +
