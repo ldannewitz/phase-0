@@ -48,8 +48,8 @@ puts 60*24*(365*10 + 2)
 1. How was this challenge? Did you get a good review of some of the basics?
   * Yes, this challenge was fairly easy but a good review, especially for string class methods.
 
-4.2.1 Challenge Solution File: https://github.com/ldannewitz/phase-0/blob/master/week-4/defining-variable.rb
+4.2.1 Challenge Solution File: https://github.com/ldannewitz/phase-0/blob/master/week-4/4.2/defining-variable.rb
 
-4.2.2 Challenge Solution File:https://github.com/ldannewitz/phase-0/blob/master/week-4/simple-string.rb
+4.2.2 Challenge Solution File:https://github.com/ldannewitz/phase-0/blob/master/week-4/4.2/simple-string.rb
 
-4.2.3 Challenge Solution File: https://github.com/ldannewitz/phase-0/blob/master/week-4/basic-math.rb
+4.2.3 Challenge Solution File: https://github.com/ldannewitz/phase-0/blob/master/week-4/4.2/basic-math.rb
