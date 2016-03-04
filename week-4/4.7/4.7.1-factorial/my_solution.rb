@@ -1,9 +1,10 @@
 # Factorial
 
-# I worked on this challenge [by myself, with: ].
+# I worked on this challenge [with Alex Wen].
 
 
 # Your Solution Below
+
 def factorial(number)
   # if number == 0
   result = 1
