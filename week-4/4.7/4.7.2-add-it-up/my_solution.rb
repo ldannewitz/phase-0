@@ -64,7 +64,6 @@ end
 def sentence_maker(array)
   array[0] = array[0].capitalize
   sentence = array.join(" ") + "."
-  return sentence
 end
 
 
