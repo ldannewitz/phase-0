@@ -43,7 +43,7 @@ puts 60*24*(365*10 + 2)
   * A string is a group of letters, symbols, or spaces. You would use them for all sorts of things, like the variable for someone's first name ("Lisa").
 
 1. What are local variables? Why and when would you use them?
-  * Local variables have a home in the place they are assigned and cannot be used outside of it. For example, you might use local variables with methods so that variables *outside* the method cannot affect the variables *inside* the method and vice versa.
+  * Local variables have a limited home in the place they are assigned and cannot be used outside of it. For example, you might use local variables within methods so that variables *outside* the method cannot affect the variables *inside* the method and vice versa. Because of this separation variable names can be reused in different places. For example, *number* outside a method and *number* inside a method are treated as completely separate variables.
 
 1. How was this challenge? Did you get a good review of some of the basics?
   * Yes, this challenge was fairly easy but a good review, especially for string class methods.
