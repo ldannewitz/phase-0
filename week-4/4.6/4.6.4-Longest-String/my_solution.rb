@@ -13,9 +13,7 @@
 
 # Your Solution Below
 def longest_string(list_of_words)
-  if list_of_words.length <= 1
-    return list_of_words[0]
-  end
+  return list_of_words[0] if list_of_words.length <= 1
 
   longest = list_of_words.pop
   trash = []

@@ -11,11 +11,7 @@
 
 def array_concat(array_1, array_2)
   array_3 = []
-  array_1.each do |item|
-    array_3 << item
-  end
-  array_2.each do |item|
-    array_3 << item
-  end
+  array_1.each { |item| array_3 << item }
+  array_2.each { |item| array_3 << item }
   return array_3
 end

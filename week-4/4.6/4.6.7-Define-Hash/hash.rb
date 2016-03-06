@@ -6,10 +6,10 @@
 
 # my_info is empty to start.  Edit this!
 my_info = {
-  :first_name => "Lisa",
-  :last_name => "Dannewitz",
-  :hometown => "the block",
-  :age => 99
+  first_name: "Lisa",
+  last_name: "Dannewitz",
+  hometown: "the block",
+  age: 99
 }
 
 
