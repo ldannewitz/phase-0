@@ -45,11 +45,7 @@ end
 # This is how I originally solved it
 def smallest_integer(list_of_nums)
   while list_of_nums.length > 1
-    if list_of_nums[0] > list_of_nums[1]
-      list_of_nums.delete_at(0)
-    else
-      list_of_nums.delete_at(1)
-    end
+    list_of_nums[0] > list_of_nums[1] ? list_of_nums.delete_at(0) : list_of_nums.delete_at(1)
   end
   smallest_num = list_of_nums[0]
   return smallest_num

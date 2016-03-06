@@ -12,9 +12,7 @@
 
 #Your Solution Below
 def shortest_string(list_of_words)
-  if list_of_words.length <= 1
-    return list_of_words[0]
-  end
+  return list_of_words[0] if list_of_words.length <= 1
 
   shortest = list_of_words.pop
   dup = []

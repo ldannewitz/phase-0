@@ -19,16 +19,10 @@
 # upper = 8
 
 def count_between(list_of_integers, lower_bound, upper_bound)
-  if list_of_integers.length == 0 || upper_bound < lower_bound
-    return 0
-  end
-
+  return 0 if list_of_integers.length == 0 || upper_bound < lower_bound
   counter = 0
   list_of_integers.each do |test_item|
-    if test_item >= lower_bound && test_item <= upper_bound
-      counter += 1
-    end
+    counter += 1 if test_item >= lower_bound && test_item <= upper_bound
   end
-
   return counter
 end

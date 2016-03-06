@@ -12,9 +12,7 @@
 
 # Your Solution Below
 def largest_integer(list_of_nums)
-  if list_of_nums.length <= 1
-    return list_of_nums[0]
-  end
+  return list_of_nums[0] if list_of_nums.length <= 1
 
   largest = list_of_nums.pop
   trash = []
