@@ -6,11 +6,7 @@
 def valid_triangle?(a, b, c)
   if a + b > c
     if a + c > b
-      if b + c > a
-        true
-      else
-        false
-      end
+      b + c > a ? true : false
     else
       false
     end
