@@ -23,6 +23,9 @@
 # mode[1,2,3,4,4]
 # dog-1, cat-1, lion-2, fish-1, ant-1, tiger-1
 
+require 'benchmark'
+require 'bigdecimal/math'
+
 def mode (arr)
   hash = Hash.new
   arr.each do |element|
@@ -46,15 +49,23 @@ def mode (arr)
   end
 
   return new_array
-
 end
 
-
-
+puts Benchmark.measure { BigMath.PI(10_000) }
+# calculate pi to 10k digits
+# 0.310000   0.030000   0.340000 (  0.340075)
 
 # 3. Refactored Solution
 
+# def mode(mode)
+#   mode_return = mode.inject({}) do |accumulator, v|
+#     accumulator[v] = mode.count(v)
+#    p accumulator
+#   end
 
-
+#   mode_return.select { |k,v| v == mode_return.values.max }.keys
+# end
+# puts Benchmark.measure { BigMath.PI(10_000) }
+# 0.350000   0.030000   0.380000 (  0.392508)
 
 # 4. Reflection
