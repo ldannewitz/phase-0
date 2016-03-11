@@ -1,4 +1,4 @@
-require_relative "my_solution"
+require_relative "refactored_solution"
 
 describe 'mode' do
   let(:array_1) { [1, 2, 3, 4, 5, 5, 7] }
