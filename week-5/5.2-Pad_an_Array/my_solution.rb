@@ -1,5 +1,9 @@
 # 5.2 Pad an Array
 
+# I worked on this challenge [with: Bill Deng]
+
+# I spent [2] hours on this challenge.
+
 # 0. Pseudocode
 # What is the input? An array, a minimum size, and an optional object
 # What is the output? Either the original array or a padded array
