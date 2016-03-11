@@ -11,19 +11,24 @@
 # If +list_of_words+ is empty the method should return nil
 
 #Your Solution Below
+# def shortest_string(list_of_words)
+#   return list_of_words[0] if list_of_words.length <= 1
+
+#   shortest = list_of_words.pop
+#   dup = []
+
+#   list_of_words.each do |test_item|
+#     if test_item.length < shortest.length
+#       dup.push shortest
+#       shortest = test_item
+#     else
+#       dup.push test_item
+#     end
+#   end
+#   return shortest
+# end
+
+#Refactored
 def shortest_string(list_of_words)
-  return list_of_words[0] if list_of_words.length <= 1
-
-  shortest = list_of_words.pop
-  dup = []
-
-  list_of_words.each do |test_item|
-    if test_item.length < shortest.length
-      dup.push shortest
-      shortest = test_item
-    else
-      dup.push test_item
-    end
-  end
-  return shortest
+  list_of_words.inject {|short, word| short.length < word.length ? short : word}
 end
