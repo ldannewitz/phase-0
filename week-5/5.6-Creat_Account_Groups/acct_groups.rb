@@ -15,7 +15,6 @@ Create groups of 3 people
 #Release 2: Initial Solution
 def account_group(list)
   return list if list.length <= 5
-
   shuffled = list.shuffle
   sorted_list = []
   while shuffled.length % 5 >= 3 || shuffled.length % 5 == 0
@@ -29,7 +28,12 @@ def account_group(list)
   while shuffled.length > 0
     sorted_list << shuffled.slice!(0..2)
   end
-  sorted_list
+  sorted_list.reject { |a| a.empty? }
+
+  sorted_list.each_with_index { |a, i|
+    puts "Group #{i + 1}: " + a.join(", ")
+    puts
+    }
 end
 
 
