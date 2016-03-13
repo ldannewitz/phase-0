@@ -1,14 +1,17 @@
 =begin
+
+I paired with Andrey Slonski
+
 #Release 1: PSEUDOCODE:
--Input: list of names
--Output: Random groups of 5, 4, or 3 people
+-Input: array of names
+-Output: Random groups of 3-5 people (2d array)
 -Steps:
 IF list has 5 people or less, create 1 group
-  END
 Shuffle list of names
 Create groups of 5 w/o leaving < 3 people at end
 Create groups of 4 w/o leaving < 3 people at end
 Create groups of 3 people
+Print groups to console
 
 =end
 
@@ -68,14 +71,20 @@ p account_group(["Aarthi Gurusami", "Abid Ramay", "Adam Zmudzinski", "Alec Hendr
 
 #Release 6: Reflect
 1. What was the most interesting and most difficult part of this challenge?
---
+--I loved this challenge! The most interesting part was using new methods. The most difficult part was structuring the sequential logic. I originally made the "math part" WAY more complicated than necessary. I had to step away from the problem for a minute and let it settle, but then it just kind of clicked.
 
 2. Do you feel you are improving in your ability to write pseudocode and break the problem down?
---Slowly, very very slowly. I paired on this challenge, and my pair already had a partial solution (completely different from above) when I joined him. That made it hard for me to pseudocode because we just jumped into making his idea work.
+--Slowly, very very slowly. I paired on this challenge, and my pair already had a partial solution (completely different from above) when I joined him. That made it hard for me to pseudocode because we just jumped into making his idea work. I eventually drifted toward the above solution, and when we took a break I pseudocoded it.
 
-Was your approach for automating this task a good solution? What could have made it even better?
-What data structure did you decide to store the accountability groups in and why?
-What did you learn in the process of refactoring your initial solution? Did you learn any new Ruby methods?
+3. Was your approach for automating this task a good solution? What could have made it even better?
+--I think our approach is good. The only thing I would change is the approach for groups of 8. Our solution splits 8 people into 2 groups, 5 and 3. I think 4 and 4 makes more sense, but the logic to implement 4-4 only works for multiples of 8 (I think) so the code gets lengthier.
+
+4. What data structure did you decide to store the accountability groups in and why?
+--We used a 2d array. I'm not sure how to elegantly vocalize why. A hash doesn't make sense here because we don't have keys and values; we just have chunks of names. Because the list starts as an array, it was easier to slice off chunks into a new array, and the 2d array organizes the groups/names easily.
+
+5. What did you learn in the process of refactoring your initial solution? Did you learn any new Ruby methods?
+--Our initial solution produced an extra empty array on the end of the output for a list of 10 names. We're still not sure exactly what causes this since it doesn't happen with 8 or 6 names, but we found a way to fix it. We used #reject to get rid of the empty array.
+--We also used #each_with_index to format the groups into a more readable output.
 
 
 =end
