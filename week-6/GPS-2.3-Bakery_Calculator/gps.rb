@@ -2,7 +2,7 @@
 # 1) Lisa Dannewitz
 # 2) Elizabeth Brown
 
-# We spent [#] hours on this challenge.
+# We spent [1] hours on this challenge.
 
 #Input: string, integer
 #Output: string
@@ -49,5 +49,18 @@ p serving_size_calc("cake", 12)
 # p serving_size_calc("cookie", 10)
 # p serving_size_calc("THIS IS AN ERROR", 5)
 
+=begin
 #  Reflection
+1. What did you learn about making code readable by working on this challenge?
+--Just because a piece of code "works" doesn't mean it's the best or most readable way to do something. The original code used a lot of round-about ways of doing things that were hard to follow. We focused on simplifying the logic.
 
+2. Did you learn any new methods? What did you learn about them?
+--No, but it was good to practice raising arguments again. I had also never divided variables inside of a "puts" before so that was an interesting technique to see.
+
+3. What did you learn about accessing data in hashes?
+--If you iterate over a hash without using both the key and value as arguments, weird things happen.
+
+4. What concepts were solidified when working through this challenge?
+--We quickly understood what the program was trying to do, even if we struggled a bit with identifying its exact approach. Knowing the program's goal made refactoring easy. This challenge solidified all of the Ruby lessons up to this point.
+
+=end
