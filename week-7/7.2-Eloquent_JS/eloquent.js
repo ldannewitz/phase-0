@@ -59,14 +59,25 @@ for(var i=0;i<size;i++) {
 // Functions
 
 // Complete the `minimum` exercise.
+function min(a,b) {
+  if(a < b) {
+    return a;
+  } else {
+    return b;
+  }
+}
 
 
 
 // Data Structures: Objects and Arrays
 // Create an object called "me" that stores your name, age, 3 favorite foods, and a quirk below.
 
-
-
+var me = {
+  name: "Lisa",
+  age: 26,
+  favorite_foods: ["pizza", "zucchini", "guacamole"],
+  quirk: "Too many to count"
+}
 
 /* Reflection?
 0. Introduction
@@ -102,13 +113,32 @@ for(var i=0;i<size;i++) {
 
 3. Functions (Skip the sections on closure and recursion)
 -What are the differences between local and global variables in JavaScript?
+---JavaScript uses lexical scoping.
+---Variables created inside a function, including their parameters, are local to the function and can only be used within it.
+---Variables declared outside of any function are called global, because they are visible throughout the program.
 -When should you use functions?
+---When you want to save a chunk of code with a variable name to use over and over with different inputs.
 -What is a function declaration?
--Complete the minimum exercise in the eloquent.js file.
+---A statement that defines the variable name and points it at a given function. Function declaration are not part of the regular top-to-bottom flow of control.
+
 
 4. Data Structures: Objects and Arrays
 -Skip the sections on the Lycanthrope's log, Computing Correlations, and sections from Further Arrayology to the Global Object, but read the chapter summary.
+
 -What is the difference between using a dot and a bracket to look up a property? Ex. array.max vs array["max"]
--Create an object called me that stores your name, age, three favorite foods, and a quirk in your eloquent.js file.
+---When using a dot, the part after the dot must be a valid variable name, and it directly names the property. When using square brackets, the expression between the brackets is evaluated to get the property name.
+---Dot notation can only be used on variable names whereas bracket notation can be used on any property. Ex. length["John Doe"] not "John Doe".length.
 -What is a JavaScript object with a name and value property similar to in Ruby?
+---Hash
+
+
+REFLECTION
+1. What are the biggest similarities and differences between JavaScript and Ruby?
+---Asked and answered.
+
+2. Was some of your Ruby knowledge solidified by learning another language? If so, which concepts?
+---Yeah I think it was because a lot of JS is at least similar to Ruby.
+
+3. How do you feel about diving into JavaScript after reading these chapters?
+---UGH.
 */
