@@ -130,4 +130,15 @@ var me = {
 ---Dot notation can only be used on variable names whereas bracket notation can be used on any property. Ex. length["John Doe"] not "John Doe".length.
 -What is a JavaScript object with a name and value property similar to in Ruby?
 ---Hash
+
+
+REFLECTION
+1. What are the biggest similarities and differences between JavaScript and Ruby?
+---Asked and answered.
+
+2. Was some of your Ruby knowledge solidified by learning another language? If so, which concepts?
+---Yeah I think it was because a lot of JS is at least similar to Ruby.
+
+3. How do you feel about diving into JavaScript after reading these chapters?
+---UGH.
 */
